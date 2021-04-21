@@ -10,8 +10,8 @@ class CoinsScreen extends Component{
     
     //declaros una funcion para llamar con props la vista de detalle
     handlesPress = () => {
-        console.log("el grupo DSM-54 ENTRA A LA PANTALLA DETALLE");
-        this.props.navigation.navigate('CoinDetailsScreen')
+        console.log("el grupo DSM-53 ENTRA A LA PANTALLA DETALLE");
+        //this.props.navigation.navigate('DetailsComponent')
     }
 
     render(){
@@ -27,8 +27,8 @@ class CoinsScreen extends Component{
 const styles = StyleSheet.create({
     container: {
         flex : 1,
-        backgroundColor: "blue"
-     },
+        backgroundColor: "red"
+     }, 
     btn:{
         padding : 8 ,
         backgroundColor : "red",

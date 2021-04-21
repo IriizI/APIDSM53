@@ -17,12 +17,11 @@ const CoinsStack = () => {
     return(
         <Stack.Navigator>
             <Stack.Screen 
-            name="stack"  
+            name="Code Pineapple"  
             component={CoinsScreen}
-            />
-            {/* //importamos el sstack de la pantalla de detalle*/}   
+            />   
          <Stack.Screen 
-            name="CoinDetailsScreen"  
+            name="Categorias"  
             component={CoinDetailsScreen}
             />
 
